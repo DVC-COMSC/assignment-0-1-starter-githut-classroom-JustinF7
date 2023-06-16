@@ -9,8 +9,8 @@ import types
 def test_main_1():
     captureOut = io.StringIO()
     sys.stdout = captureOut
-    datastr = '35 5 10 20 40 15'
-    sys.stdin = io.StringIO(datastr)
+    #datastr = '35 5 10 20 40 15'
+    #sys.stdin = io.StringIO(datastr)
 
     main.main()
     sys.stdout = sys.__stdout__
